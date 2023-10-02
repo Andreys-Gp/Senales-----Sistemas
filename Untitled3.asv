@@ -1,0 +1,7 @@
+t = 0:0.1:30; 
+x = -2+3*cos(cos(20*pi*t+(pi/4)))+sin(40*pi*t);
+plot(t,x)
+axis([0 30 -5 5])
+grid
+xlabel('Time (sec)')
+ylabel('x(t)')
