@@ -1,8 +1,0 @@
-%%señal x=-2+3*cos(20*pi*t+pi/4)+sin(40*pi*t)
-%%tiempo tiempo discreto 
-n=linspace(0,50,100);
-x=-2 + 3*cos(20*pi*t + pi/4) + sin(40*pi/4);
-sin(40*pi*n);
-stem(n,x)
-axis([0 50 -6 1.25])
-grid
